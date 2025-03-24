@@ -2,7 +2,7 @@ import os
 import pytesseract
 from pdf2image import convert_from_path
 from PIL import Image, ImageEnhance, ImageFilter
-import json
+import json                               
 import re
 import unicodedata
 import multiprocessing
