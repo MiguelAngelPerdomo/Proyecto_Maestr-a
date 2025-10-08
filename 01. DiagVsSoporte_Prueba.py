@@ -3,7 +3,7 @@ import re
 from pymongo import MongoClient
 
 # 📌 1. Conectar a MongoDB
-client = MongoClient("mongodb+srv://mperdomol1:1OkwRaT9EQSLpGbh@datosincapacidades.t9vkenb.mongodb.net/?retryWrites=true&w=majority&appName=DatosIncapacidades")
+client = MongoClient("mongodb+srv://:1OkwRaT9EQSLpGbh@datosincapacidades.t9vkenb.mongodb.net/?retryWrites=true&w=majority&appName=DatosIncapacidades")
 db = client["DatosIncapacidades"]
 
 # 📌 2. Cargar datos desde MongoDB
