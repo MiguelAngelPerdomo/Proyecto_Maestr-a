@@ -2,7 +2,7 @@ from pymongo import MongoClient
 import json
 
 # Conectar a MongoDB
-client = MongoClient("mongodb+srv://mperdomol1:1OkwRaT9EQSLpGbh@datosincapacidades.t9vkenb.mongodb.net/?retryWrites=true&w=majority&appName=DatosIncapacidades")  # Ajusta la conexión si es necesario
+client = MongoClient("mongodb+srv://:1OkwRaT9EQSLpGbh@datosincapacidades.t9vkenb.mongodb.net/?retryWrites=true&w=majority&appName=DatosIncapacidades")  # Ajusta la conexión si es necesario
 db = client["DatosIncapacidades"]
 collection = db["soportes_actualizados"]
 
